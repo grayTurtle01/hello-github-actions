@@ -10,3 +10,5 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "Alice"
+      - name: steps/name
+      - run: echo "Hello from jobs/build/steps/name"
